@@ -17,7 +17,7 @@ class Arb < Formula
 
   depends_on "gmp"
   depends_on "mpfr"
-  depends_on "flint"
+  depends_on "sagemath/science/flint"
 
   def install
     if OS.mac?
